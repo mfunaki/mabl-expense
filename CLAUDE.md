@@ -131,6 +131,8 @@ npm run test:webkit
 
 Tests expect API at `localhost:4000` and Web at `localhost:3000`.
 
+Note: `playwright.config.ts` has a `webServer` setting that automatically starts the `apps/web` dev server if needed.
+
 ## Key Architecture Details
 
 ### Backend API Structure
