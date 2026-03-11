@@ -1,0 +1,13 @@
+{
+  "google.gemini.mcpServers": {
+    "mabl": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mablhq/mabl-cli@latest",
+        "mcp",
+        "start"
+      ]
+    }
+  }
+}

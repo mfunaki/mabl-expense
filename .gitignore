@@ -18,3 +18,7 @@ apps/web/.next
 # Mobile
 apps/mobile/.env
 apps/mobile/.expo
+
+# AI Assistant Instructions (auto-generated)
+GEMINI.md
+.github/copilot-instructions.md

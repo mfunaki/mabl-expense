@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "dev:api": "npm run dev --workspace=apps/api",
-    "dev:web": "cd apps/web && npm run dev"
+    "dev:web": "cd apps/web && npm run dev",
+    "mcp:sync": "node scripts/sync-mcp.mjs"
   },
   "description": "",
   "main": "index.js",

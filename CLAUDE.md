@@ -226,6 +226,21 @@ gcloud run services logs read expense-app-web --region=asia-northeast1 --limit=5
 
 ## Testing Workflow
 
+### Data Reset Script (scripts/test-api.sh)
+
+Reset data and verify the full API flow:
+
+```bash
+# Against local API server
+bash scripts/test-api.sh http://localhost:4000
+
+# Against production (Cloud Run) - default when no argument given
+bash scripts/test-api.sh
+```
+
+Note: Use `localhost:4000` (Backend API port), not `localhost:3000` (Web Frontend port).
+Requires `jq` to be installed.
+
 ### mabl Test Scenario
 1. [API] Reset data via `POST /api/reset`
 2. [Mobile] Employee submits expense (status: PENDING)
