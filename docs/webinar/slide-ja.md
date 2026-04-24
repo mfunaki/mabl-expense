@@ -437,7 +437,7 @@ CI/CDパイプライン統合 (プラン／テストを指定して実行)
 | mabl ドキュメント | https://help.mabl.com/ |
 | mabl CLI | https://help.mabl.com/docs/mabl-cli |
 | MCP Server | npmjs.com/@anthropics/mcp-server-mabl |
-| 経費管理デモアプリ | github.com/mfunaki/my-mabl-demo-app |
+| 経費管理デモアプリ | github.com/mfunaki/mabl-expense |
 
 **サポート**: support@mabl.com
 

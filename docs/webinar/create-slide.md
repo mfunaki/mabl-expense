@@ -316,4 +316,4 @@ npm install @marp-team/marp-cli --save-dev
 
 - **Marp 公式ドキュメント**: https://marp.app/
 - **Marp CLI**: https://github.com/marp-team/marp-cli
-- **プロジェクトリポジトリ**: https://github.com/mfunaki/my-mabl-demo-app
+- **プロジェクトリポジトリ**: https://github.com/mfunaki/mabl-expense

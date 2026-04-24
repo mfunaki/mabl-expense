@@ -135,7 +135,7 @@ PROJECT_NUMBER=$(gcloud projects describe YOUR_PROJECT_ID --format="value(projec
 gcloud iam service-accounts add-iam-policy-binding \
   github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com \
   --role="roles/iam.workloadIdentityUser" \
-  --member="principalSet://iam.googleapis.com/projects/${PROJECT_NUMBER}/locations/global/workloadIdentityPools/github-pool/attribute.repository/YOUR_GITHUB_USER/my-mabl-demo-app"
+  --member="principalSet://iam.googleapis.com/projects/${PROJECT_NUMBER}/locations/global/workloadIdentityPools/github-pool/attribute.repository/YOUR_GITHUB_USER/mabl-expense"
 ```
 
 **重要:** `YOUR_GITHUB_USER` を実際のGitHubユーザー名またはOrganization名に置き換えてください。

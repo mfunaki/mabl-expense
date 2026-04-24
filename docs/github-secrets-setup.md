@@ -91,7 +91,7 @@ gh secret list
 ```
 
 または、GitHubのWeb UIで確認:
-`https://github.com/YOUR_USER/my-mabl-demo-app/settings/secrets/actions`
+`https://github.com/YOUR_USER/mabl-expense/settings/secrets/actions`
 
 ---
 
